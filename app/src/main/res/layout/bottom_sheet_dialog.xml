@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bottomsheetdialog"
+    android:backgroundTint="#0013C0"
+    android:orientation="vertical"
+    android:theme="@style/Theme.all">
+   <TextView
+       android:id="@+id/tv_rename"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:textColor="@color/white"
+       android:text="Rename"
+       android:layout_marginTop="30dp"
+       android:textSize="20dp"
+       android:drawableLeft="@drawable/ic_edit"
+       android:drawablePadding="20dp"
+       android:fontFamily="@font/interbold"/>
+    <TextView
+        android:id="@+id/tv_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Delete"
+        android:layout_marginBottom="30dp"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic__delete"
+        android:drawablePadding="20dp"
+        android:fontFamily="@font/interbold"/>
+
+
+</LinearLayout>

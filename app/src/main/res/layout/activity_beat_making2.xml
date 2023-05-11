@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.BeatMakingActivity.BeatMakingActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/interbold"
+                    android:gravity="center"
+                    android:text="The best"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_recordingstatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/interbold"
+                    android:gravity="center"
+                    android:text="Recordering...."
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:visibility="invisible" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/blackroundbg"
+                        android:backgroundTint="@color/gray"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="22dp"
+                            android:layout_height="22dp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/reddot" />
+
+                        <TextView
+                            android:id="@+id/tv_recording"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/interbold"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="REC"
+                            android:textColor="@color/white"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/blackroundbg"
+                        android:backgroundTint="@color/gray"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/interbold"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="A"
+                            android:textColor="@color/white"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:fontFamily="@font/interbold"
+                            android:gravity="center"
+                            android:padding="2dp"
+                            android:singleLine="true"
+                            android:text="B"
+                            android:textColor="@color/white"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/blackroundbg"
+                        android:backgroundTint="@color/appyellow"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"
+                            android:padding="3dp"
+                            android:src="@drawable/graduate" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/interbold"
+                            android:gravity="center"
+                            android:singleLine="true"
+                            android:text="  LESSONS"
+                            android:textColor="@color/black"
+                            android:textSize="13sp" />
+
+                    </LinearLayout>
+
+                    <!-- <TextView
+                         android:layout_width="0dp"
+                         android:layout_height="35dp"
+                         android:layout_gravity="center"
+                         android:layout_marginLeft="20dp"
+                         android:layout_weight="0.3"
+                         android:background="@drawable/blackroundbg"
+                         android:fontFamily="@font/interbold"
+                         android:gravity="center"
+                         android:padding="6dp"
+                         android:text="A B"
+                         android:textColor="@color/white"
+                         android:textSize="14sp" />-->
+
+                    <!--   <TextView
+                           android:layout_width="0dp"
+                           android:layout_height="35dp"
+                           android:layout_gravity="center"
+                           android:layout_marginLeft="20dp"
+                           android:layout_weight="0.3"
+                           android:background="@drawable/blackroundbg"
+                           android:backgroundTint="@color/appyellow"
+                           android:drawableLeft="@drawable/graduate"
+                           android:fontFamily="@font/interbold"
+                           android:gravity="center"
+                           android:padding="6dp"
+                           android:text="Lesson"
+                           android:textColor="@color/black"
+                           android:textSize="14sp" />-->
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <SeekBar
+                        android:id="@+id/seekBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:max="12"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp" />
+
+                </LinearLayout>
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:orientation="horizontal">
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/pad1"
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/pad_button_blue"
+                                android:onClick="onPadButtonClick"
+                                android:tag="pad1" />
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/circle_oval" />
+
+                            <ImageView
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/circle_only" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:text="Start"
+                                android:textColor="@color/black" />
+
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/pad_button_blue"
+                                android:onClick="onPadButtonClick"
+                                android:tag="pad2" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/pad_button_blue"
+                                android:onClick="onPadButtonClick"
+                                android:tag="pad3" />
+
+                        </LinearLayout>
+
+
+                        <!--                        <Button-->
+                        <!--                            android:id="@+id/pad1"-->
+                        <!--                            style="?android:attr/borderlessButtonStyle"-->
+                        <!--                            android:layout_width="110dp"-->
+                        <!--                            android:layout_height="110dp"-->
+                        <!--                            android:layout_margin="3dp"-->
+                        <!--                            android:background="@drawable/pad_button_blue"-->
+                        <!--                            android:onClick="onPadButtonClick"-->
+                        <!--                            android:tag="pad1" />-->
+
+                        <!--<Button
+                            style="?android:attr/borderlessButtonStyle"
+                            android:layout_width="110dp"
+                            android:layout_height="110dp"
+                            android:layout_margin="3dp"
+                            android:background="@drawable/pad_button_blue"
+                            android:onClick="onPadButtonClick"
+                            android:tag="pad2" />-->
+
+                        <!--  <Button
+                              style="?android:attr/borderlessButtonStyle"
+                              android:layout_width="110dp"
+                              android:layout_height="110dp"
+                              android:layout_margin="3dp"
+                              android:background="@drawable/pad_button_blue"
+                              android:onClick="onPadButtonClick"
+                              android:tag="pad3" />-->
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/pad_button_blue"
+                                android:onClick="onPadButtonClick"
+                                android:tag="pad1" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/pad2"
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/pad_button_blue"
+                                android:onClick="onPadButtonClick"
+                                android:tag="pad2" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/pad3"
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/pad_button_blue"
+                                android:onClick="onPadButtonClick"
+                                android:tag="pad3" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/pad4"
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/pad_button_blue"
+                                android:onClick="onPadButtonClick"
+                                android:tag="pad4" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/pad5"
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/pad_button_pink"
+                                android:onClick="onPadButtonClick"
+                                android:tag="pad5" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/pad6"
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/pad_button_pink"
+                                android:onClick="onPadButtonClick"
+                                android:tag="pad6" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/pad7"
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/pad_button_blue"
+                                android:onClick="onPadButtonClick"
+                                android:tag="pad7" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/pad8"
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/pad_button_pink"
+                                android:onClick="onPadButtonClick"
+                                android:tag="pad8" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/pad9"
+                                style="?android:attr/borderlessButtonStyle"
+                                android:layout_width="110dp"
+                                android:layout_height="110dp"
+                                android:layout_margin="3dp"
+                                android:background="@drawable/pad_button_pink"
+                                android:onClick="onPadButtonClick"
+                                android:tag="pad9" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <!-- <TableRow
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="0dp">
+
+                         <Button
+                             style="?android:attr/borderlessButtonStyle"
+                             android:layout_width="110dp"
+                             android:layout_height="110dp"
+                             android:layout_margin="3dp"
+                             android:background="@drawable/pad_button_blue"
+                             android:onClick="onPadButtonClick"
+                             android:tag="pad1" />
+
+                         <Button
+                             android:id="@+id/pad2"
+                             style="?android:attr/borderlessButtonStyle"
+                             android:layout_width="110dp"
+                             android:layout_height="110dp"
+                             android:layout_margin="3dp"
+                             android:background="@drawable/pad_button_blue"
+                             android:onClick="onPadButtonClick"
+                             android:tag="pad2" />
+
+                         <Button
+                             android:id="@+id/pad3"
+                             style="?android:attr/borderlessButtonStyle"
+                             android:layout_width="110dp"
+                             android:layout_height="110dp"
+                             android:layout_margin="3dp"
+                             android:background="@drawable/pad_button_blue"
+                             android:onClick="onPadButtonClick"
+                             android:tag="pad3" />
+
+                     </TableRow>-->
+
+                    <!-- <TableRow
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <Button
+                             android:id="@+id/pad4"
+                             style="?android:attr/borderlessButtonStyle"
+                             android:layout_width="110dp"
+                             android:layout_height="110dp"
+                             android:layout_margin="3dp"
+                             android:background="@drawable/pad_button_blue"
+                             android:onClick="onPadButtonClick"
+                             android:tag="pad4" />
+
+                         <Button
+                             android:id="@+id/pad5"
+                             style="?android:attr/borderlessButtonStyle"
+                             android:layout_width="110dp"
+                             android:layout_height="110dp"
+                             android:layout_margin="3dp"
+                             android:background="@drawable/pad_button_pink"
+                             android:onClick="onPadButtonClick"
+                             android:tag="pad5" />
+
+                         <Button
+                             android:id="@+id/pad6"
+                             style="?android:attr/borderlessButtonStyle"
+                             android:layout_width="110dp"
+                             android:layout_height="110dp"
+                             android:layout_margin="3dp"
+                             android:background="@drawable/pad_button_pink"
+                             android:onClick="onPadButtonClick"
+                             android:tag="pad6" />
+                     </TableRow>-->
+
+                    <!-- <TableRow
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content">
+
+                         <Button
+                             android:id="@+id/pad7"
+                             style="?android:attr/borderlessButtonStyle"
+                             android:layout_width="110dp"
+                             android:layout_height="110dp"
+                             android:layout_margin="3dp"
+                             android:background="@drawable/pad_button_blue"
+                             android:onClick="onPadButtonClick"
+                             android:tag="pad7" />
+
+                         <Button
+                             android:id="@+id/pad8"
+                             style="?android:attr/borderlessButtonStyle"
+                             android:layout_width="110dp"
+                             android:layout_height="110dp"
+                             android:layout_margin="3dp"
+                             android:background="@drawable/pad_button_pink"
+                             android:onClick="onPadButtonClick"
+                             android:tag="pad8" />
+
+                         <Button
+                             android:id="@+id/pad9"
+                             style="?android:attr/borderlessButtonStyle"
+                             android:layout_width="110dp"
+                             android:layout_height="110dp"
+                             android:layout_margin="3dp"
+                             android:background="@drawable/pad_button_pink"
+                             android:onClick="onPadButtonClick"
+                             android:tag="pad9" />
+
+                     </TableRow>-->
+
+                    <Button
+                        android:id="@+id/pack1"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/selection_button"
+                        android:onClick="onPackSelectionClick"
+                        android:tag="pack1"
+                        android:text="Rock Sound Pack"
+                        android:textColor="#FAFAFA" />
+
+                    <Button
+                        android:id="@+id/pack2"
+                        style="?android:attr/borderlessButtonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/selection_button"
+                        android:onClick="onPackSelectionClick"
+                        android:tag="pack2"
+                        android:text="Techno Sound Pack"
+                        android:textColor="#FAFAFA" />
+
+                </TableLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_stop"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/blackroundbg"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Stop"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/tv_play"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/blackroundbg"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Play"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/career"
+        android:icon="@drawable/star"
+        android:title="Career" />
+    <item
+        android:id="@+id/catalog"
+        android:icon="@drawable/music"
+        android:title="Catalog" />
+
+    <item
+        android:id="@+id/mymusic"
+        android:icon="@drawable/btm_musicic"
+        android:title="My Music" />
+
+    <item
+        android:id="@+id/progress"
+        android:icon="@drawable/ic_progress"
+        android:title="Progress" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/setting"
+        android:title="Setting" />
+</menu>

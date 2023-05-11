@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "84918318768",
+    "project_id": "beatmaker-9d4cb",
+    "storage_bucket": "beatmaker-9d4cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84918318768:android:47fc6604221fed02c56d75",
+        "android_client_info": {
+          "package_name": "com.beatmaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84918318768-tjtq6juj4tf392b2mco6q4vuq3ber7a1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beatmaker",
+            "certificate_hash": "c02c38024b41068279a50a13d8fbec7c5c1f15b7"
+          }
+        },
+        {
+          "client_id": "84918318768-v5ibjtj63m4os97cpgs1qqqdq40nka3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAURiMbv38IkKo5wNVw2AbZ8PP40NjWClc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84918318768-v5ibjtj63m4os97cpgs1qqqdq40nka3j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

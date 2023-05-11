@@ -1,0 +1,94 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable-v24/pad_button_blue.xml" value="0.2075" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable-v24/pad_button_pink.xml" value="0.2115" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/circle_border.xml" value="0.2075" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/circle_only.xml" value="0.2075" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/circle_oval.xml" value="0.2075" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/circle_shape.xml" value="0.2105" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/circleonly2.xml" value="0.2075" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/circular.xml" value="0.2105" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/circular_progress_bar.xml" value="0.2105" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/circular_shape.xml" value="0.2115" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/dot_dot_dot.xml" value="0.2075" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/ic__arrow.xml" value="0.2115" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/music.xml" value="0.2075" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/odt_dot_dot.xml" value="0.2075" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/progress.xml" value="0.209" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/roundcornerbg.xml" value="0.2115" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/roundcornerbg2.xml" value="0.2115" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/drawable/rounded_corneronly.xml" value="0.2075" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/activity_beat_making.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/activity_beat_making2.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/activity_beat_result.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/activity_home.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/activity_login_activtiy.xml" value="0.1260245901639344" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/activity_main.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/activity_music.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/activity_sign_up.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/activity_splash2.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/activity_splash3.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/fragment_career2.xml" value="0.1260245901639344" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/fragment_catalog.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/fragment_my_music.xml" value="0.1260245901639344" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/fragment_my_music_java.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/fragment_progress.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/fragment_setting.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/logoutdialog.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/myrecordsrecyclreitem.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/newadapteriem.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/recentplayeditem.xml" value="0.153125" />
+        <entry key="..\:/Beatmaker/beatmaker/app/src/main/res/layout/resumeadapteritem.xml" value="0.153125" />
+        <entry key="app/src/main/res/drawable-v24/selection_button.xml" value="0.133" />
+        <entry key="app/src/main/res/drawable/blackroundbg.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/bottomroundbg.xml" value="0.132" />
+        <entry key="app/src/main/res/drawable/bottomsheetdialog.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/gradientbg.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/gradientbg2.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/iconcolor.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/icplay.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/imageroundcorners.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/normalroundbg.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/rectangle.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/roundcornerbg.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/roundcornerbg2.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/roundcornerbg3.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/thumb_selector.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/track_selector.xml" value="0.1455" />
+        <entry key="app/src/main/res/drawable/yellowgradientbg.xml" value="0.1455" />
+        <entry key="app/src/main/res/layout/activity_beat_making.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/activity_login_activtiy.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/activity_music.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_splash2.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/activity_splash3.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/fragment_career.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/fragment_career2.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/fragment_catalog.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/fragment_my_music.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_my_music_java.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/fragment_progress.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/fragment_setting.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/logoutdialog.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/myrecordsrecyclreitem.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/newadapteriem.xml" value="0.2269021739130435" />
+        <entry key="app/src/main/res/layout/recentplayeditem.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/resumeadapteritem.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/bottomnavmenu.xml" value="0.26614583333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
